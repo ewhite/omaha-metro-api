@@ -1,0 +1,10 @@
+{
+  "name": "bus-locations-socket",
+  "version": "0.0.1",
+  "description": "a socketio based app which can push bus locations to connected sockets",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  },
+  "type": "module"
+}
