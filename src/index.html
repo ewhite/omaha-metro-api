@@ -52,6 +52,7 @@
     <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
     <script>
       var socket = io();
+      socket.emit('route selected', '2');
       socket.on('time until bus arrives received', message =>
         $('#messages').append($('<li>').text(JSON.stringify(message)))
       );

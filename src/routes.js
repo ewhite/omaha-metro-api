@@ -15,7 +15,7 @@ const NUMBER_2 = {
 };
 
 const ROUTES = {
-  NUMBER_2,
+  '2': NUMBER_2,
 };
 
 export default ROUTES;
